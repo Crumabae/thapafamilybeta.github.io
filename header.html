@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Thapa Family</title>
+  <link rel="shortcut icon" href="logo.jpg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  body{
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  .carousel-inner img {
+    width: 100%;
+    height: 100vh;
+  }
+  #loading{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #fff url('https://media.giphy.com/media/3y0oCOkdKKRi0/giphy.gif://media.giphy.com/media/jFIgJGFHHFxde/giphy.gif') no-repeat center center;	
+	z-index: 99999;
+  background-color:black;
+}
+center{
+  position:absolute;
+}
+</style>
+</head>
+<body onload="myFunction()" data-spy="scroll" data-target="#myScrollspy" data-offset="1">
+  <div id="loading"></div>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="myScrollspy">
+        <a href="images/logo.jpg" class="navbar-brand"><img src="images/logo.jpg" style="width:25%; height:25%;" alt="Thapa Family"></a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ml-auto">
+                <a href="#demo" class="nav-item nav-link active">Home</a>
+                <a href="#aboutus" class="nav-item nav-link">About Us</a>
+                <a href="#gallery" class="nav-item nav-link">Gallery</a>
+                <a href="#contactme" class="nav-item nav-link">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/img_manju.jpg" alt="Los Angeles" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Manju Thapa</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/img_navin.jpg" alt="Chicago" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Navin Thapa</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/abinav.jpg" alt="New York" width="800" height="600">
+      <div class="carousel-caption abinav">
+        <h3>Abinav Singh Thapa</h3>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="images/pranav.jpg" alt="New York" width="800" height="600">
+      <div class="carousel-caption abinav">
+        <h3>Pranav Singh Thapa</h3>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  <br>
+</div>
+<div class="container">
+  <h1 class="text-center p-3" id="aboutus">About Us</h1>
+</div>
+<br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6">
+      <img src="images/img_manju.jpg" class="img-fluid">
+    </div>
+    <div class="col-6">
+      <h2 class="text-center p-3">Manju Thapa</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nesciunt culpa quas est fugit dolores odit iure! Minima labore, hic deserunt ipsam quia ratione eos alias sed temporibus numquam repudiandae.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, accusamus iusto commodi minus aspernatur, aut, magni illo vero iste ipsa sapiente. Itaque repellendus quo eos quod animi omnis, voluptas autem!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quasi harum consequuntur hic libero, corrupti architecto error distinctio veritatis earum voluptatibus nobis rem commodi sequi non adipisci dolorem illo officiis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam optio nobis, alias ducimus, suscipit a impedit sapiente possimus consequatur odit id quisquam itaque aliquid quasi excepturi, provident sed asperiores necessitatibus?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis porro explicabo accusantium, suscipit, alias, sequi quod dicta excepturi vero beatae? Corrupti nulla dolorum quia expedita deserunt quibusdam quo deleniti.
+      </p><br>
+      <button type="button" class="btn btn-outline-danger">Read More</button>
+    </div>
+  </div>
+</div><br><hr><br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6">
+      <h2 class="text-center p-3">Navin Thapa</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nesciunt culpa quas est fugit dolores odit iure! Minima labore, hic deserunt ipsam quia ratione eos alias sed temporibus numquam repudiandae.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, accusamus iusto commodi minus aspernatur, aut, magni illo vero iste ipsa sapiente. Itaque repellendus quo eos quod animi omnis, voluptas autem!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quasi harum consequuntur hic libero, corrupti architecto error distinctio veritatis earum voluptatibus nobis rem commodi sequi non adipisci dolorem illo officiis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam optio nobis, alias ducimus, suscipit a impedit sapiente possimus consequatur odit id quisquam itaque aliquid quasi excepturi, provident sed asperiores necessitatibus?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis porro explicabo accusantium, suscipit, alias, sequi quod dicta excepturi vero beatae? Corrupti nulla dolorum quia expedita deserunt quibusdam quo deleniti.
+      </p><br>
+      <button type="button" class="btn btn-outline-danger">Read More</button>
+    </div>
+    <div class="col-6">
+      <img src="images/img_navin.jpg" class="img-fluid">
+    </div>
+  </div>
+</div><br>
+<hr><br>
+<div class="row">
+  <div class="col-6">
+    <img src="images/abinav.jpg" class="img-fluid">
+  </div>
+  <div class="col-6">
+    <h2 class="text-center p-3">Abinav Singh Thapa</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nesciunt culpa quas est fugit dolores odit iure! Minima labore, hic deserunt ipsam quia ratione eos alias sed temporibus numquam repudiandae.
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, accusamus iusto commodi minus aspernatur, aut, magni illo vero iste ipsa sapiente. Itaque repellendus quo eos quod animi omnis, voluptas autem!
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quasi harum consequuntur hic libero, corrupti architecto error distinctio veritatis earum voluptatibus nobis rem commodi sequi non adipisci dolorem illo officiis!
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam optio nobis, alias ducimus, suscipit a impedit sapiente possimus consequatur odit id quisquam itaque aliquid quasi excepturi, provident sed asperiores necessitatibus?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis porro explicabo accusantium, suscipit, alias, sequi quod dicta excepturi vero beatae? Corrupti nulla dolorum quia expedita deserunt quibusdam quo deleniti.
+    </p><br>
+    <button type="button" class="btn btn-outline-danger">Read More</button>
+  </div>
+</div>
+</div><br><hr><br>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-6">
+      <h2 class="text-center p-3">Pranav Singh Thapa</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nesciunt culpa quas est fugit dolores odit iure! Minima labore, hic deserunt ipsam quia ratione eos alias sed temporibus numquam repudiandae.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, accusamus iusto commodi minus aspernatur, aut, magni illo vero iste ipsa sapiente. Itaque repellendus quo eos quod animi omnis, voluptas autem!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat, quasi harum consequuntur hic libero, corrupti architecto error distinctio veritatis earum voluptatibus nobis rem commodi sequi non adipisci dolorem illo officiis!
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam optio nobis, alias ducimus, suscipit a impedit sapiente possimus consequatur odit id quisquam itaque aliquid quasi excepturi, provident sed asperiores necessitatibus?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe nobis porro explicabo accusantium, suscipit, alias, sequi quod dicta excepturi vero beatae? Corrupti nulla dolorum quia expedita deserunt quibusdam quo deleniti.
+      </p><br>
+      <button type="button" class="btn btn-outline-danger">Read More</button>
+    </div>
+    <div class="col-6">
+      <img src="images/pranav.jpg" class="img-fluid">
+    </div>
+  </div>
+</div><br>
+<hr><br>
+<div class="container">
+  <h1 class="text-center" id="gallery">Gallery</h1>
+</div>
+<br>
+<!-- Grid row -->
+<div class="row">
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-12 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="images/img_manju.jpg"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Manju Thapa</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="images/img_manju.jpg" alt="video"
+        data-toggle="modal" data-target="#modal1"></a>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="images/img_navin.jpg"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Navin Thapa Playing Chess</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="images/img_navin.jpg" alt="video"
+        data-toggle="modal" data-target="#modal6"></a>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="images/abinav.jpg"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Manju And Abinav Together</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="images/abinav.jpg" alt="video"
+        data-toggle="modal" data-target="#modal4"></a>
+
+  </div>
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+
+<!-- Grid row -->
+<div class="row">
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-12 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="images/pranav.jpg"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Manju And Pranav</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="images/pranav.jpg" alt="video"
+        data-toggle="modal" data-target="#modal2"></a>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="images/pic5.jpg"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Manju, Abinav And Pranav Together</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="images/pic5.jpg" alt="video"
+        data-toggle="modal" data-target="#modal5"></a>
+
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-lg-4 col-md-6 mb-4">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="images/pic3.jpg"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer d-block d-md-flex justify-content-center">
+            <span class="mr-4">Navin, Manju With Relatives Together</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="images/pic3.jpg" alt="video"
+        data-toggle="modal" data-target="#modal3"></a>
+
+  </div>
+  <!-- Grid column -->
+
+</div>
+<!-- Grid row -->
+<br><hr><br>
+<div class="container omg">
+  <h1 class="text" id="contactme">Contact Us</h1>
+</div>
+<br>
+<div class="jumbotron">
+  <p><b>Email-Address:</b>    pranavsinghthapa999@gmail.com</p>
+  <p><b>Phone-Number:</b>    9841256218</p>
+</div>
+<div class="container"><br>
+  <form action="" method="POST">
+    <input type="text" name="username" class="form-control" placeholder="Name" required><br>
+    <textarea class="form-control" placeholder="Message" required></textarea><br>
+    <button type="submit" onclick="pranav()" class="btn btn-success">Submit</button>
+  </form>
+</div><br><br>
+<script>
+  function pranav(){
+    alert("This is beta version. Comment system will work in full release.")
+  }
+  // $(document).ready(function(){
+    // 	$('div#loading').removeAttr('id');
+  // });
+  var preloader = document.getElementById("loading");
+  // window.addEventListener('load', function(){
+  // 	preloader.style.display = 'none';
+  // 	})
+
+  function myFunction(){
+    preloader.style.display = 'none';
+  };
+</script>
+</body>
+<footer class="p-5 bg-dark text-white">
+  <h1 class="text-center">Copyright© By Pranav Singh Thapa</h1>
+  <p class="text-center">Lalitpur, Nepal</p>
+</footer>
+</html>
